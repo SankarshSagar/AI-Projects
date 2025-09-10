@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pro Scientific Calculator</title>
+  <title>Scientific Calculator</title>
   <link rel="icon" href="icon.png" type="image/png">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -156,28 +156,27 @@
         <button class="btn-operator" onclick="appendToDisplay('*')">×</button>
 
         <button class="btn-operator" onclick="appendToDisplay('Math.sqrt(')">√</button>
-        <button class="btn-operator" onclick="appendToDisplay('Math.pow(')">xʸ</button>
         <button class="btn-operator" onclick="appendToDisplay('Math.PI')">π</button>
         <button class="btn-operator" onclick="appendToDisplay('Math.E')">e</button>
         <button class="btn-operator" onclick="appendToDisplay('-')">-</button>
+        <button class="btn-operator" onclick="appendToDisplay('Math.log(')">ln</button>
 
         <button class="btn-number" onclick="appendToDisplay('7')">7</button>
         <button class="btn-number" onclick="appendToDisplay('8')">8</button>
         <button class="btn-number" onclick="appendToDisplay('9')">9</button>
         <button class="btn-operator" onclick="appendToDisplay('+')">+</button>
-        <button class="btn-operator" onclick="appendToDisplay('Math.log(')">ln</button>
+        <button class="btn-operator" onclick="appendToDisplay('**')">^</button>
 
         <button class="btn-number" onclick="appendToDisplay('4')">4</button>
         <button class="btn-number" onclick="appendToDisplay('5')">5</button>
         <button class="btn-number" onclick="appendToDisplay('6')">6</button>
         <button class="btn-operator" onclick="appendToDisplay('%')">%</button>
-        <button class="btn-operator" onclick="appendToDisplay('**')">^</button>
+        <button class="btn-operator" onclick="appendToDisplay('.')">.</button>
 
         <button class="btn-number" onclick="appendToDisplay('1')">1</button>
         <button class="btn-number" onclick="appendToDisplay('2')">2</button>
         <button class="btn-number" onclick="appendToDisplay('3')">3</button>
         <button class="btn-equals" onclick="calculate()">=</button>
-        <button class="btn-operator" onclick="appendToDisplay('.')">.</button>
 
         <button class="btn-number" onclick="appendToDisplay('0')" style="grid-column: span 2;">0</button>
       </div>
